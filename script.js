@@ -20,7 +20,22 @@ function isPalindrome(str) {
   }
   return box === amendmentString;
 }
-console.log(isPalindrome("Поезд"));
-console.log(isPalindrome("Топот"));
-console.log(isPalindrome("12321"));
-console.log(isPalindrome("Имя"));
+console.log(
+  `Слово 'Поезд' ${
+    isPalindrome("Поезд") ? "является" : "не является"
+  } палиндромом`
+);
+console.log(
+  `Слово 'Топот' ${
+    isPalindrome("Топот") ? "является" : "не является"
+  } палиндромом`
+);
+console.log(
+  `Число '12321' ${
+    isPalindrome("12321") ? "является" : "не является"
+  } палиндромом`
+);
+console.log(
+  `Слово 'Имя' ${isPalindrome("Имя") ? "является" : "не является"} палиндромом`
+);
+
